@@ -1,4 +1,6 @@
 # Mananguit-Experiment-1
+# Alphabet Soup Problem
+```
 #Alphabet Soup Problem
 #create user input interface
 string = input("Enter a word: ")
@@ -10,7 +12,10 @@ def alphabet_soup(string):
     return i
 j = alphabet_soup(string) #assign the function to a variable to be able to do a function call
 print(j) #call and print the function
+```
 
+# Emoticon Problem
+```
 #Emoticon Problem
 #create a dictionary that represent a word into a emote
 #create another duplicate of a word incase of capitalization
@@ -24,7 +29,9 @@ def emotify(string):
     return string
 i = emotify(string) #assign the function to a variable to be able to do a function call
 print(i)  #call and print the function
-
+```
+# Unpacking List Problem
+```
 #Unpacking List problem
 #create a list named writeyourcodehere
 writeyourcodehere = [] 
@@ -41,3 +48,5 @@ def remove_first_last(j):
 #use the function to call numbers in between first and last
 #print the values in the proper format        
 print("first: ",writeyourcodehere[0],"   ","middle: ", remove_first_last(writeyourcodehere), "    last: ", writeyourcodehere[-1] )
+```
+
